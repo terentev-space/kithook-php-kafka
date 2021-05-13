@@ -19,11 +19,18 @@
             "role": "Developer"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php" : ">=7.1",
         "psr/log": "^1.1",
-        "terentev-space/kithook-php": "dev-master",
-        "enqueue/rdkafka": "^0.10.9"
+        "terentev-space/kithook-php": "^0.1.1",
+        "enqueue/rdkafka": "^0.9.15 | ^0.10.9"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*"
