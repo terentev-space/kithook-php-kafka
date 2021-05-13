@@ -22,7 +22,7 @@
     "require": {
         "php" : ">=7.1",
         "psr/log": "^1.1",
-        "terentev-space/kithook-php": "dev-master",
+        "terentev-space/kithook-php": "^0.1.1",
         "enqueue/rdkafka": "^0.10.9"
     },
     "require-dev": {
