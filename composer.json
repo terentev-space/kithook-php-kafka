@@ -19,13 +19,11 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
-        "php" : ">=7.1.3",
-        "psr/log": "^1.1",
-        "terentev-space/kithook-php": "^0.1.1",
+        "php" : ">=7.1",
         "enqueue/rdkafka": "^0.9.15"
+        "psr/log": "^1.1",
+        "terentev-space/kithook-php": "^0.1.1"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*"
