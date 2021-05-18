@@ -20,8 +20,8 @@
         }
     ],
     "require": {
-        "php" : ">=7.1",
-        "enqueue/rdkafka": "^0.9.15"
+        "php": ">=7.1",
+        "enqueue/rdkafka": "^0.9.15",
         "psr/log": "^1.1",
         "terentev-space/kithook-php": "^0.1.1"
     },
